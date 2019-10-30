@@ -17,12 +17,12 @@ type User {
   likes: [Like!]!
   comments: [Comment!]!
   rooms: [Room!]!
-  loginSecret: String!
+  password: String!
+  isLogin: Boolean!
   createdAt: String!
   updateAt: String!
   
 }
-
 type Post {
   id: ID! 
   location: String!
