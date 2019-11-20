@@ -6,9 +6,6 @@
   "repository": "https://github.com/znehraks/prismagram.git",
   "author": "<znehraks@gmail.com>",
   "license": "MIT",
-  "engines": {
-    "yarn": "1.17.3"
-  },
   "dependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.6.4",
@@ -42,9 +39,9 @@
   "scripts": {
     "deploy": "prisma deploy --force",
     "generate": "prisma generate",
-    "prisma": "yarn run deploy && yarn run generate",
+    "prisma": "npm run deploy && npm run generate",
     "dev": "nodemon --exec babel-node src/server.js",
-    "prebuild": "yarn run generate",
+    "prebuild": "npm run generate",
     "build": "babel src -d build",
     "postbuild": "cd src && npx copy ./api/**/*.graphql ../build/api/",
     "start": "node build/server.js"
