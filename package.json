@@ -39,7 +39,7 @@
     "@babel/plugin-transform-runtime": "^7.6.2",
     "nodemon": "^1.19.4"
   },
-  "scripts": {
+  "scripts": {  
     "deploy": "prisma deploy --force",
     "generate": "prisma generate",
     "prisma": "yarn run deploy && yarn run generate",
