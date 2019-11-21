@@ -2,7 +2,6 @@
   "name": "prismagram",
   "version": "1.0.0",
   "description": "instagram clone with Express + Prisma + React and ReactNative",
-  "main": "index.js",
   "repository": "https://github.com/znehraks/prismagram.git",
   "author": "<znehraks@gmail.com>",
   "license": "MIT",
