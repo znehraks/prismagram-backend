@@ -6,6 +6,9 @@
   "repository": "https://github.com/znehraks/prismagram.git",
   "author": "<znehraks@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "yarn": "1.17.3"
+  },
   "dependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.6.4",
